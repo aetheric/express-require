@@ -1,0 +1,32 @@
+{
+  "name": "express-require",
+  "version": "0.0.1",
+  "description": "An express middleware that pre-resolves requirejs dependencies.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aetheric/express-require.git"
+  },
+  "keywords": [
+    "express",
+    "require",
+    "middleware"
+  ],
+  "author": "Peter Cummuskey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aetheric/express-require/issues"
+  },
+  "homepage": "https://github.com/aetheric/express-require",
+  "devDependencies": {
+    "gulp": "^3.8.10"
+  },
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "fs": "0.0.2",
+    "tamper": "^0.1.0"
+  }
+}

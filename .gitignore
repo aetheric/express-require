@@ -1,0 +1,13 @@
+
+# NPM
+node_modules/
+
+# Build
+dist/
+
+# Intellij
+.idea/
+*.iws
+*.ipr
+*.iml
+
