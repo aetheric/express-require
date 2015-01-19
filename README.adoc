@@ -1,0 +1,14 @@
+express-require
+===============
+Peter Cummuskey <peterc@aetheric.co.nz>
+
+This middleware is designed to take a requirejs-enabled project and
+dynamically alter the static page output to expand requirejs dependencies into
+their script components before the loader executes in the browser. By doing
+this, the aim is to make debugging these scripts easier in the browser.
+
+CAUTION: This library was built to scratch a particular itch, and therefore
+does not cater to any use-cases beyond that. The extensive use of regexes
+should be replaced with script evaluation, and some kind of caching mechanism
+should be added to prevent unnecessary processing.
+
